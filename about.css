@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    height: 105vh;
+    background-color:#1e201e;;
+}
+.Introduction {
+    display: grid;
+    place-items: center;
+    line-height: 2rem;
+    padding-top: 5rem;
+}
+.intro {
+    color: #00ccdd;
+    transition: 0.3s ease;
+    cursor: default;
+}
+.intro:hover {
+    color: #7CF5FF;
+    text-shadow: 0 0 25px #7CF5FF,
+                 0 0 5px #7CF5FF;
+    scale: 3;
+}
+.intro-two {
+    color: #7CF5FF;
+}
+p {
+    color: #ddfaf8;
+    width: 1010px;
+    text-align: center;
+    font-size: 100%;
+    font-weight: 9px;
+}
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4em;
+}
+.first-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black
+}
+.second-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1e201e;
+}
+.third-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1e201e;
+}
+.fourth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1e201e;
+}
+.box {
+    background-color: #00ccdd;
+    height: 10em;
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2rem;
+}
